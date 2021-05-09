@@ -3,7 +3,7 @@ name: Packages
 on:
   push:
     branches:
-    - master
+    - android-5
     paths:
     - 'packages/**'
   pull_request:
