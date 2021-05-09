@@ -3,12 +3,14 @@ name: Packages
 on:
   push:
     branches:
-    - android-5
+    - master
     paths:
     - 'packages/**'
   pull_request:
     paths:
     - 'packages/**'
+  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
