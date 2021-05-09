@@ -9,6 +9,8 @@ on:
   pull_request:
     paths:
     - 'packages/**'
+  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
